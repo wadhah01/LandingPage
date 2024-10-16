@@ -4,20 +4,21 @@
     "paragraph": "Enhance your customer service experience with HelloMyBot! Our intelligent chatbot delivers personalized support, making every interaction smooth and efficient. Delight your customers with instant assistance!"
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
-    ],
-    "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
-    ]
-  },
+  "paragraph": "At HelloMyBot, we are dedicated to revolutionizing customer service through intelligent automation. Our chatbot technology provides seamless support, enabling businesses to enhance customer interactions and boost satisfaction. With a commitment to innovation and user-centric design, we empower companies to deliver exceptional service, 24/7.",
+"Why": [
+  "Expertise in AI for personalized customer experiences.",
+  "Reliable 24/7 support for constant customer care.",
+  "Proven record of enhancing response times and satisfaction.",
+  "Seamless integration with existing systems."
+],
+"Why2": [
+  "Expert team to optimize your chatbot experience.",
+  "Ongoing updates based on user feedback.",
+  "Strong focus on data security and privacy.",
+  "Tailored solutions for your business needs."
+]
+
+},
   "Gallery": [
     {
       "title": "Project Title",
@@ -159,26 +160,27 @@
     "twitter": "twitter.com",
     "youtube": "youtube.com"
   },
-  "Features": [
-    {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    }
-  ]
+ "Features": [
+  {
+    "icon": "fa fa-headset", 
+    "title": "24/7 Instant Support",
+    "text": "Offer around-the-clock customer service to ensure your customers receive help whenever they need it."
+  },
+  {
+    "icon": "fa fa-brain", 
+    "title": "AI-Powered Conversations",
+    "text": "Leverage advanced AI to understand customer inquiries and provide personalized, intelligent responses."
+  },
+  {
+    "icon": "fa fa-chart-line", 
+    "title": "Real-Time Analytics",
+    "text": "Track and analyze customer interactions in real-time to improve service quality and gain insights."
+  },
+  {
+    "icon": "fa fa-cogs", 
+    "title": "Seamless Integration",
+    "text": "Integrate with your existing CRM and communication tools for a smooth, uninterrupted workflow."
+  }
+]
+
 }
