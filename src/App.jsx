@@ -5,7 +5,7 @@ import { Header } from "./components/header";
 import { Features } from "./components/features";
 import { About } from "./components/about";
 import { Services } from "./components/services";
-import { Documentation } from "./pages/documentation";
+import Documentation from './pages/Documentation';
 import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
@@ -37,7 +37,7 @@ const App = () => {
               <Contact data={landingPageData.Contact} />
             </>
           } />
-          <Route path="/documentation" element={<Documentation />} />
+          <Route path="/Documentation" element={<Documentation />} />
         </Routes>
       </div>
     </Router>
