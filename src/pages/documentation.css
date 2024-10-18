@@ -3,22 +3,37 @@
 /* Theme Colors and Fonts (reused from LandingPage.css) */
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f7f7f7; /* Similar light theme as the landing page */
+    background-color: white; /* Similar light theme as the landing page */
     color: #333;
+    padding-top: 100px; /* Adjust this value based on your navbar height */
+
   }
   
   h1, h2, h3, h4, h5, h6 {
     color: #2c3e50; /* Main theme color */
     margin-bottom: 20px;
   }
-  
+
   /* Page Layout */
-  .documentation-container {
+  .documentation-content {
+    padding: 40px;
     max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
+    margin: 0 auto; /* Center the container */
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-top: -100px; /* Negative margin equal to navbar height */
+    position: relative;
+    z-index: 1; /* Ensure it appears above other elements */
+}
+section {
+  min-height: 100vh; /* Make each section at least the height of the viewport */
+  padding: 40px 20px; /* Add padding for content */
+  background-color: white; /* Ensure section background is white */
+  border-radius: 8px; /* Optional: rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: shadow for sections */
+  margin-bottom: 20px; /* Space between sections */
+}
   .documentation-header {
     background-color: #34495e; /* Header color similar to landing page */
     color: #fff;
@@ -32,4 +47,82 @@ body {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   }
-  
+  /******************INTRODUCTION*************************/
+  .introduction-section {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    min-height: 100vh; /* Make the section take up the full height of the viewport */
+    padding: 20px; /* Add padding around the section */
+    background-color: #f9f9f9; /* Light background for contrast */
+    border-radius: 8px; /* Optional: rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    margin-top: -70px; /* Move the section slightly upwards */
+
+}
+
+
+.introduction-content {
+    flex: 1; /* Take up 50% of the space */
+    padding: 20px; /* Padding for content */
+}
+
+.introduction-content h2 {
+  font-size: 56px; /* Larger font size for prominence */
+  color: #0271e0; /* Main theme color */
+  margin-top: 0; /* No margin above the heading */
+  margin-bottom: 20px; /* Slightly increased space below heading */
+  font-weight: 700; /* Bold for emphasis */
+  letter-spacing: 1px; /* Add spacing between letters for readability */
+  line-height: 1.2; /* Tighten line height to bring focus to the title */
+  text-transform: uppercase; /* Convert to uppercase for a bold statement */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  text-align: left; /* Align text to the left */
+}
+
+
+.introduction-content h3 {
+    font-size: 22px; /* Font size for subheading */
+    color: #34495e; /* Color for subheading */
+    margin-top: 25px; /* Increased space above subheading */
+    margin-bottom: 10px; /* Space below subheading */
+}
+
+.introduction-content p {
+    font-size: 16px; /* Font size for paragraph text */
+    line-height: 1.8; /* Increased line spacing for better readability */
+    margin-bottom: 20px; /* Space below paragraphs */
+}
+
+.introduction-image {
+    flex: 1; /* Take up 50% of the space */
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+}
+
+.introduction-image img {
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: rounded corners */
+}
+
+.introduction-content ul {
+    list-style: none; /* Remove default bullet points */
+    padding-left: 0; /* Remove padding */
+}
+
+.introduction-content ul li {
+    font-size: 16px; /* Font size for bullet points */
+    margin-bottom: 10px; /* Space between bullet points */
+    padding-left: 25px; /* Space for custom bullet */
+    position: relative; /* Positioning for the tick */
+}
+
+.introduction-content ul li:before {
+    content: "✔️"; /* Use a checkmark as the bullet */
+    position: absolute; /* Position relative to list item */
+    left: 0; /* Align left */
+    color: #27ae60; /* Color for the checkmark */
+    font-size: 18px; /* Size for the checkmark */
+}

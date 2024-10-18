@@ -1,13 +1,27 @@
 // Documentation.jsx
 import React from 'react';
 import './documentation.css';
-
+import chatbot1 from '../images/chat1.jpg'; 
 const Documentation = () => {
     return (
       <div className="documentation">
-        <section id="introduction">
-          <h2>Introduction</h2>
-          <p>Welcome to the documentation for [Your Project Name]. Here, you will find information on installation, usage, and more.</p>
+        <section id="introduction" className="introduction-section">
+          <div className="introduction-content">
+            <h2 style={{marginBottom:80}}>Introduction</h2>
+            <p>Welcome to the <strong>HelloMyBot</strong> documentation! <br />
+              <strong>HelloMyBot</strong> is an innovative chatbot designed to transform customer support through instant, 24/7 assistance.
+            </p>
+            <h3>Key Features</h3>
+            <ul>
+              <li><strong>Intelligent Responses:</strong> Leverages natural language processing for seamless interactions.</li>
+              <li><strong>Cross-Platform Integration:</strong> Easily integrates with websites, messaging apps, and more.</li>
+              <li><strong>Data Insights:</strong> Gain valuable analytics on user interactions to improve service.</li>
+            </ul>
+            <p>Explore this documentation to unlock the full potential of <strong>HelloMyBot</strong>!</p>
+          </div>
+          <div className="introduction-image">
+            <img src={chatbot1} alt="HelloMyBot" />
+          </div>
         </section>
   
         <section id="installation">
@@ -51,6 +65,6 @@ const Documentation = () => {
         </section>
       </div>
     );
-  };
-  
-  export default Documentation;
+};
+
+export default Documentation;
