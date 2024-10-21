@@ -126,3 +126,103 @@ section {
     color: #27ae60; /* Color for the checkmark */
     font-size: 18px; /* Size for the checkmark */
 }
+/***********INSTALLATION***********/
+/* General Title Style for All Sections */
+section h2 {
+  font-size: 48px; /* Prominent title size */
+  color: #2c3e50; /* Theme color */
+  text-align: center; /* Center the title horizontally */
+  font-weight: 700; /* Bold font weight */
+  text-transform: uppercase; /* Make the title uppercase */
+  margin-top: 0; /* Align title at top */
+  margin-bottom: 30px; /* Space below the title */
+}
+
+/* Installation Section Layout */
+/* General Title Style for All Sections */
+section h2 {
+  font-size: 48px;
+  color: #2c3e50;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+/* Installation Section Layout */
+.installation-section {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 20px;
+}
+
+.installation-content {
+  display: flex;
+  align-items: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.installation-text {
+  margin-top: 80px;
+  width: 50%;
+  padding-right: 20px; /* Add some spacing to the right */
+  text-align: left; /* Align text to the left */
+}
+
+
+.installation-text p {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.installation-text a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.installation-text a:hover {
+  text-decoration: underline;
+}
+
+/* Photo Placeholder on the Right */
+.photo-placeholder {
+  width: 50%;
+  height: 300px;
+  background-color: #eaeaea;
+  border-radius: 8px;
+}
+.photo-placeholder {
+  width: 80%; /* Adjust as needed for image size */
+  height: 300px; /* Set height for the placeholder */
+  background-color: #ddd; /* Light grey color for the placeholder */
+  border-radius: 8px; /* Optional: rounded corners */
+}
+
+.installation-text h3 {
+  font-size: 28px; /* Font size for the main header */
+  color: #2c3e50; /* Main color for headings */
+  margin-bottom: 15px; /* Space below the header */
+}
+
+.installation-text h4 {
+  font-size: 22px; /* Font size for subheading */
+  color: #34495e; /* Color for subheading */
+  margin-top: 25px; /* Space above subheading */
+  margin-bottom: 10px; /* Space below subheading */
+}
+
+.installation-text ul {
+  list-style: none; /* Remove default bullet points */
+  padding-left: 0; /* Remove padding */
+}
+
+.installation-text ul li {
+  font-size: 16px; /* Font size for bullet points */
+  margin-bottom: 10px; /* Space between bullet points */
+}

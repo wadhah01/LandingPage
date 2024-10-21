@@ -2,7 +2,9 @@
 import React from 'react';
 import './documentation.css';
 import chatbot1 from '../images/chat1.jpg'; 
+
 const Documentation = () => {
+  
     return (
       <div className="documentation">
         <section id="introduction" className="introduction-section">
@@ -24,10 +26,33 @@ const Documentation = () => {
           </div>
         </section>
   
-        <section id="installation">
-          <h2>Installation</h2>
-          <p>Follow these steps to install the project...</p>
-        </section>
+        <section id="installation" className="installation-section">
+  <h2>Installation</h2> {/* Title at the top center */}
+  <div className="installation-content">
+    <div className="installation-text">
+      <h3>Installation Made Easy!</h3>
+      <p>
+        Integrating HelloMyBot into your project is straightforward and hassle-free. You don’t need to modify your existing setup; simply duplicate the chatbot instance and choose the platform you want to deploy it on.
+      </p>
+      <h4>Key Benefits:</h4>
+      <ul>
+        <li><strong>Seamless Integration:</strong> No need for complex changes—just plug and play!</li>
+        <li><strong>Multi-Platform Support:</strong> Use HelloMyBot across various platforms effortlessly.</li>
+        <li><strong>Comprehensive Guidance:</strong> Our detailed guides will help you through every step of the integration process, ensuring a smooth transition into production.</li>
+      </ul>
+      <p>
+        **Explore our <a href="#integration-partners">Integration Partners</a>** section to see how HelloMyBot can work with different platforms.
+      </p>
+    </div>
+    <div className="installation-image">
+      <div className="photo-placeholder"></div> {/* Image placeholder */}
+    </div>
+  </div>
+</section>
+
+
+
+
   
         <section id="usage">
           <h2>Usage</h2>
